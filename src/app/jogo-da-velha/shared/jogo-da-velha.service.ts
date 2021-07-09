@@ -11,7 +11,7 @@ export class JogoDaVelhaService {
   private readonly TAB_TAM: number = 3; //Aqui nada será modificado
   private readonly X: number = 1;
   private readonly O: number = 2;
-  private readonly VAZIO: number = 3;
+  private readonly VAZIO: number = 0;
 
   private tabuleiro: any;   // Atributos de controle do jogo
   private numeroMov: number;
